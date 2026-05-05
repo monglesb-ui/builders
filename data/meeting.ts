@@ -1,4 +1,35 @@
-import { MeetingSummary } from '@/types'
+import { MeetingSummary, Meeting } from '@/types'
+
+export const meetings: Meeting[] = [
+  {
+    id: 1,
+    date: '2024-01-15',
+    topic: '프로젝트 기획 및 기술 스택 선정',
+    presenterId: 1,
+    note: '기본 환경 설정 완료',
+  },
+  {
+    id: 2,
+    date: '2024-01-22',
+    topic: 'MVP 개발 및 배포 전략',
+    presenterId: 2,
+    note: '초안 배포 예정',
+  },
+  {
+    id: 3,
+    date: '2024-01-29',
+    topic: '유저 피드백 반영 및 개선',
+    presenterId: 3,
+    note: '',
+  },
+  {
+    id: 4,
+    date: '2024-02-05',
+    topic: '마케팅 및 홍보 전략',
+    presenterId: 4,
+    note: 'SNS 채널 개설',
+  },
+]
 
 export const meetingSummary: MeetingSummary = {
   totalMembers: 7,
