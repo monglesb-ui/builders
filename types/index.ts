@@ -46,6 +46,7 @@ export type Meeting = {
   date: string
   summary: string
   presenterId: string
+  topic: string
   createdAt: string
 }
 
