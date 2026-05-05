@@ -42,7 +42,7 @@ export type Meeting = {
   id: number
   date: string
   topic: string
-  presenterId: number
+  presenterId: string
   note?: string
 }
 
