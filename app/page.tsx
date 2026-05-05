@@ -1,3 +1,6 @@
+import { KnowHowSection } from '@/components/dashboard/knowhow-section';
+import { MeetingBoard } from '@/components/dashboard/meeting-board';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
@@ -40,7 +43,7 @@ export default function Home() {
                 <span className="text-xs font-medium opacity-90">총 멤버</span>
                 <span className="text-lg">👥</span>
               </div>
-              <p className="text-2xl font-extrabold">7명</p>
+              <p className="text-2xl font-extrabold">7 명</p>
             </div>
 
             <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl p-4 text-white shadow-lg">
@@ -48,7 +51,7 @@ export default function Home() {
                 <span className="text-xs font-medium opacity-90">주간 목표 달성</span>
                 <span className="text-lg">✅</span>
               </div>
-              <p className="text-2xl font-extrabold">5명</p>
+              <p className="text-2xl font-extrabold">5 명</p>
             </div>
 
             <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl p-4 text-white shadow-lg">
@@ -56,7 +59,7 @@ export default function Home() {
                 <span className="text-xs font-medium opacity-90">월간 배포 완료</span>
                 <span className="text-lg">🚀</span>
               </div>
-              <p className="text-2xl font-extrabold">3명</p>
+              <p className="text-2xl font-extrabold">3 명</p>
             </div>
 
             <div className="bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl p-4 text-white shadow-lg">
@@ -64,7 +67,7 @@ export default function Home() {
                 <span className="text-xs font-medium opacity-90">월간 수익 발생</span>
                 <span className="text-lg">💰</span>
               </div>
-              <p className="text-2xl font-extrabold">2명</p>
+              <p className="text-2xl font-extrabold">2 명</p>
             </div>
 
             <div className="bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl p-4 text-white shadow-lg">
@@ -72,7 +75,7 @@ export default function Home() {
                 <span className="text-xs font-medium opacity-90">현재 라운드</span>
                 <span className="text-lg">📍</span>
               </div>
-              <p className="text-lg font-extrabold">4주차</p>
+              <p className="text-lg font-extrabold">4 주차</p>
             </div>
           </div>
 
