@@ -38,4 +38,14 @@ export type MeetingSummary = {
   currentRound: string
 }
 
+export type Meeting = {
+  id: string
+  title: string
+  hostId: string
+  participants: string[]
+  date: string
+  summary: string
+  createdAt: string
+}
+
 export type KnowHowTag = "프롬프트" | "기획" | "개발" | "배포" | "수익화" | "디자인" | "운영"
