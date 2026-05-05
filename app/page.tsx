@@ -1,5 +1,5 @@
-import { KnowHowSection } from '@/components/dashboard/knowhow-section';
-import { MeetingBoard } from '@/components/dashboard/meeting-board';
+import KnowHowSection from '@/components/dashboard/knowhow-section';
+import MeetingBoard from '@/components/dashboard/meeting-board';
 
 export default function Home() {
   return (
